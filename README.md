@@ -5,8 +5,8 @@
 ## Models
 
 - Post -> date:date rationale:text
-- User -> Devise
-- AdminUser -> STI (single table inheritance) [must include "type" string]
+x User -> Devise
+x AdminUser -> STI (single table inheritance) [must include "type" string]
 
 ## Features:
 
