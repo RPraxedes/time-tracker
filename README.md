@@ -1,6 +1,6 @@
 # Time Tracker app
 
-## Key requirement: company needs documentation that salaries employees did or did not get evertime each week
+## Key requirement: company needs documentation that salaries employees did or did not get everytime each week
 
 ## Models
 
