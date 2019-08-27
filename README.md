@@ -1,11 +1,11 @@
 # Time Tracker app
 
-## Key requirement: company needs documentation that salaries employees did or did not get everytime each week
+## Key requirement: company needs documentation that salaries employees did or did not get each week
 
 ## Models
 
 - Post -> date:date rationale:text
-- User -> Device
+- User -> Devise
 - AdminUser -> STI
 
 ## Features:
