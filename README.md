@@ -6,7 +6,7 @@
 
 - Post -> date:date rationale:text
 - User -> Devise
-- AdminUser -> STI
+- AdminUser -> STI (single table inheritance) [must include "type" string]
 
 ## Features:
 
