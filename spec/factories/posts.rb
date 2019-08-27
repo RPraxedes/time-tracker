@@ -1,17 +1,13 @@
 FactoryGirl.define do
-  factory :user do
-    first_name 'Jon'
-    last_name 'Snow'
-    email 'test@test.com'
-    password 'asdfasdf'
-    password_confirmation 'asdfasdf'
+  factory :post do
+    date Date.today
+    rationale 'first post'
+    user
   end
 
-  factory :admin_user, class: "AdminUser" do
-    first_name 'Admin'
-    last_name 'User'
-    email 'admin@user.com'
-    password 'asdfasdf'
-    password_confirmation 'asdfasdf'
+  factory :second_post, class: "Post" do
+    date Date.yesterday
+    rationale 'second post'
+    user
   end
 end
